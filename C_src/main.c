@@ -15,8 +15,8 @@ int main() {
 
 /*
 In terminal compile and run:
-gcc main.c game/game.c grid/grid.c player/player.c -o ConnectFour
-.\ConnectFour.exe 
+gcc C_src/main.c C_src/game/game.c C_src/grid/grid.c C_src/player/player.c -o ConnectFour
+C_src/ConnectFour.exe
 
 The C project consists of multiple source files that need to be 
 compiled together before the program can be run.
