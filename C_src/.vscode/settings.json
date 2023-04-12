@@ -1,0 +1,6 @@
+{
+    "code-runner.executorMap": {
+        "c": "cd $dir; gcc main.c game/game.c grid/grid.c player/player.c -o ConnectFour; .\\ConnectFour"
+    },
+    "code-runner.runInTerminal": true
+}

@@ -1,0 +1,31 @@
+{
+    "version": "0.2.0",
+    "compounds": [
+        {
+            "name": "Build and Run",
+            "configurations": ["ConnectFour"]
+        }
+    ],
+    "configurations": [
+        {
+            "name": "ConnectFour",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/ConnectFour",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}",
+            "environment": [],
+            "externalConsole": true,
+            "MIMode": "gdb",
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                }
+            ],
+            "preLaunchTask": "build"
+        }
+    ]
+}
